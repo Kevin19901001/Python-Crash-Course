@@ -19,3 +19,43 @@ print("Thank you everyone. That was a great magic show!")
 
 
 # 4.2 避免缩进错误
+# Python根据缩进来判断代码行与前一个代码行的关系
+
+
+# 4.3 创建数值列表
+# 4.3.1 使用函数range()
+for value in range(1, 5):
+	print(value)
+
+for value in range(6):
+	print(value)
+
+# 4.3.2 使用range()创建数字列表
+numbers = list(range(1, 6))
+print(numbers)					# [1, 2, 3, 4, 5]
+
+# 第3个参数：步长
+even_numbers = list(range(2, 11, 2))
+print(even_numbers)				# [2, 4, 6, 8, 10]
+
+# 创建一个包含1~10的平方的列表
+squares = []
+for value in range(1, 11):
+	square = value * value
+	squares.append(square)
+print(squares)					# [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+
+# 4.3.3 对数字列表执行简单的统计计算
+digits = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+print(min(digits))				# 最小值
+print(max(digits))				# 最大值
+print(sum(digits))				# 求和
+
+
+# 4.3.4 列表解析
+squares = [value ** 2 for value in range(1, 11)]
+print(squares)
+
+
+# 动手试一试
