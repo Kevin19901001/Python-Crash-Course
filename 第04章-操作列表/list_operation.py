@@ -59,3 +59,10 @@ print(squares)
 
 
 # 动手试一试
+# 使用一个for循环打印数1～20（含）：
+digit = range(1, 21)
+for value in digit:
+	print(value)
+
+for value in range(1, 21):
+	print(value)
