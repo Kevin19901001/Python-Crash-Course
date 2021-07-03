@@ -69,6 +69,16 @@ for value in range(1, 21):
 
 
 # 创建一个包含1～1000000的列表，再使用一个for循环，将这些数打印出来：
-list = range(1, 1000000)
+list = range(1, 1000001)
 for value in list:
 	print(value)
+
+
+# 一百万求和：
+# 创建一个包含数1～1000000的列表，在使用min()和max()核实
+# 该列表确实是从1开始、1000000结束的。另外，对这个列表调用函数
+# sum()，看看Python将一百万个数相加，需哟多长时间。
+list = range(1, 1000001)
+print(min(list))
+print(max(list))
+print(sum(list))
