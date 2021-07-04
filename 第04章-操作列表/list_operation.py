@@ -82,3 +82,11 @@ list = range(1, 1000001)
 print(min(list))
 print(max(list))
 print(sum(list))
+
+
+# 奇数：
+# 通过给函数range()指定第3个参数来创建一个列表，其中包含1～20的奇数，
+# 再使用那个一个for循环将这些数打印出来
+list = range(1, 20, 2)
+for value in list:
+	print(value)
