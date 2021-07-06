@@ -98,3 +98,11 @@ for value in list:
 list = range(3, 31, 3)
 for value in list:
 	print(value)
+
+
+list = []
+for element in range(1, 11):
+	list.append(element ** 3)
+
+for value in list:
+	print(value)
