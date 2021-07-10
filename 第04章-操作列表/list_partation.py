@@ -37,3 +37,10 @@ print(friend_foods)
 print("The first three items in the list are:")
 for value in players[:3]:
 	print(value)
+
+
+# 打印消息“Three items from the middle of the list are:”，
+# 再使用切片来打印列表的中间3个元素
+print("\nThree items from the middle of the list are:")
+for value in players[1:4]:
+	print(value)
