@@ -44,3 +44,28 @@ for value in players[:3]:
 print("\nThree items from the middle of the list are:")
 for value in players[1:4]:
 	print(value)
+
+
+# 你的批萨，我的批萨：
+# 创建批萨列表的副本
+# 并将其赋值给变量friends_pizaas,
+# 再完成如下任务
+# 在原来的pissa列表中增加一种批萨
+# 在列表friends_pizzas中增加另一种pizza
+# 核实有2个不同的列表
+# 为此，打印消息“My favorite pizzas are:”
+# 再使用一个for循环打印第一个列表
+# 打印消息“My friend's favorite pizzas are:”
+# 再使用一个for循环来打印第2个列表
+my_pizzas = ['pizza', 'falafel', 'carrot cake']
+print("My favorite pizzas are:")
+friend_pizzas = my_pizzas[:]
+
+my_pizzas.append('cannoli')
+for pizza in my_pizzas:
+	print(pizza)
+
+friend_pizzas.append('ice_cream')
+print("\nMy friend's favorite pizzas are:")
+for pizza in friend_pizzas:
+	print(pizza)
