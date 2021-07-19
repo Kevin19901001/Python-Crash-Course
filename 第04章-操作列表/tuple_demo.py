@@ -26,3 +26,12 @@ for demension in demensions:
 demensions = (400, 100)
 for demension in demensions:
 	print(demension)
+
+
+# 动手试一试：
+# 5中食品，存储到一个元组中
+foods = ('bread', 'cake', 'egg', 'sandwich', 'cheese')
+
+# 使用一个for循环将5种食品都打印出来
+for food in foods:
+	print(food)
