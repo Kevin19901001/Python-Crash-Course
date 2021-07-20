@@ -35,3 +35,6 @@ foods = ('bread', 'cake', 'egg', 'sandwich', 'cheese')
 # 使用一个for循环将5种食品都打印出来
 for food in foods:
 	print(food)
+
+# 尝试修改，Python会拒绝
+#foods[0] = 'milk'
