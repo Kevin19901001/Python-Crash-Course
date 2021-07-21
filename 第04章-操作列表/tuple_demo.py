@@ -38,3 +38,8 @@ for food in foods:
 
 # 尝试修改，Python会拒绝
 #foods[0] = 'milk'
+
+# 调整菜单，打印每一个元素
+foods = ('bread', 'cake', 'milk', 'salad', 'cheese')
+for food in foods:
+	print(food)
