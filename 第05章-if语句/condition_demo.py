@@ -75,3 +75,35 @@ if user not in banned_users:
 # 5.2.8 布尔表达式
 game_active = True
 can_edit = False
+
+
+
+# 动手试一试
+# 编写条件测试，将每个测试及对其结果的预测和实际结果打印出来。
+car = 'subaru'
+print("Is car == 'subaru'? I predict True.")
+print(car == 'subaru')
+
+print("Is car == 'audi'? I predict False.")
+print(car == 'audi')
+
+
+# 更多条件测试
+# 检查2个字符串相等和不等
+car_0 = 'subaru'
+car_1 = 'Audi'
+car_2 = 'audi'
+car_3 = 'Audi'
+print(car_0 == car_1)			# False
+print(car_1 == car_2)			# False
+print(car_2 == car_3)			# False
+print(car_1 == car_3)			# True
+
+
+
+# 5.3 if语句
+# 5.3.1 简单的if语句
+age = 19
+if age >= 16:
+	print("You are old enough to vote!")
+	print("Have you registered to vote yet?")
