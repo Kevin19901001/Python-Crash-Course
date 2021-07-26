@@ -117,3 +117,13 @@ if age >= 18:
 else:
 	print("Sorry, You are too young to vote!")
 	print("Please register vote as soon as you turn 18!")
+
+
+# if-elif-else结构：
+age = 12
+if age < 4:
+	print("Your admission cost is $0.")
+elif age < 18:
+	print("Your admission cost is $25")
+else:
+	print("You admission cost is $40.")
