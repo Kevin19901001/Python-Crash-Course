@@ -152,3 +152,49 @@ if 'extra cheese' in requested_toppings:
 	print("Adding extra cheese.")
 
 print("\nFinished making your pizza!")
+
+
+
+# 动手练一练：
+# 创建一个外星人变量，并赋值颜色
+alien_color = "green"
+
+# 绿色，5分
+if alien_color == "green":
+	print("You have got 5 scores.")
+
+alien_color = "yello"
+if alien_color != "green":
+	print("You have got 10 scores.")
+
+# 3个分支：
+if alien_color == "green":
+	print("You have got 5 scores.")
+elif alien_color == "yello":
+	print("You have got 10 scores.")
+else:
+	print("You have got 15 scores.")
+
+# 人生阶段：
+age = 25
+if age < 4:
+	print("This is a baby.")
+elif age < 13:
+	print("This a a children.")
+elif age < 20:
+	print("This is a teenager.")
+elif age < 65:
+	print("This is an adult.")
+else:
+	print("This is an older.")
+
+# 喜欢的水果：
+favorate_fruits = ["banana", "orange", "apple"]
+if "banana" in favorate_fruits:
+	print("You really like bananas!")
+
+if "apple" in favorate_fruits:
+	print("You really like apples!")
+
+if "orange" in favorate_fruits:
+	print("You really like oranges!")
