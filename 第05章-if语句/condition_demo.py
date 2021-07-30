@@ -198,3 +198,14 @@ if "apple" in favorate_fruits:
 
 if "orange" in favorate_fruits:
 	print("You really like oranges!")
+
+
+# 5.4 使用if语句处理列表：
+requested_toppings = ["mushrooms", "green peppers", "extra cheese"]
+for requested_topping in requested_toppings:
+	if requested_topping == "green peppers":
+		print("Sorry, we are out of green peppers right now.")
+	else:
+		print(f"Adding {requested_topping}.")
+
+print("\nFinished making you pizza.")
