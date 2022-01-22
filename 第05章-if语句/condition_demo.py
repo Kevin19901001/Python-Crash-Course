@@ -209,3 +209,46 @@ for requested_topping in requested_toppings:
 		print(f"Adding {requested_topping}.")
 
 print("\nFinished making you pizza.")
+
+
+# 动手试一试：
+# 以特殊方式跟管理员打招呼
+users = []
+if len(users) == 0:
+    print("We need to find some users!")
+else:
+    for user in users:
+        if user == 'admin':
+            print("Hello admin, would you like to see a status report?\n")
+        else:
+            print("Hello, Jaden, thank you fro logging in agian.\n")
+
+current_users = ['Kevin', 'Ketty', 'Clark', 'Kelly', 'Susan']
+uppered_current_users = []
+for current_user in current_users:
+    uppered_current_users.append(current_user.upper())
+
+print(uppered_current_users)
+
+new_users = ['Mary', 'Moon', 'ketty', 'Coco', 'Clark']
+for new_user in new_users:
+    if new_user.upper() in uppered_current_users:
+        print("This username has been used, please use another new.")
+    else:
+        print("This username has never been used, you can use it!")
+
+# 练习5-11:
+# 序数表示位置，如1st和2nd。序数大多以th结尾，只有1、2和3例外。
+# 在一个列表中存储数字1～9
+# 遍历这个列表
+# 在循环中使用一个if-elif-else结构，以打印每个数字对应的序数。输出内容应为“1st 2nd 3rd 4th 5th 6th 7th 8th 9th”。
+nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+for num in nums:
+    if num == 1:
+        print('1st')
+    elif num == 2:
+        print('2nd')
+    elif num == 3:
+        print('3rd')
+    else:
+        print(f"{num}th")
