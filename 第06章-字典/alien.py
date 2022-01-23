@@ -31,3 +31,11 @@ simular_friend = {'first_name':'Iric', 'last_name':'Haris', 'city':'Wuhan'}
 print(simular_friend['first_name'])
 print(simular_friend['last_name'])
 print(simular_friend['city'])
+
+# 朋友和喜欢的数字
+friends_nums = {'Carter':8, 'Kevin':10, 'James':6, 'Micheal':23, 'Allen':20}
+print(f"Carter likes {friends_nums['Carter']}")
+print(f"Kevin likes {friends_nums['Kevin']}")
+print(f"James likes {friends_nums['James']}")
+print(f"Micheal likes {friends_nums['Micheal']}")
+print(f"Allen likes {friends_nums['Allen']}")
