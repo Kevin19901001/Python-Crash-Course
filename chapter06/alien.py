@@ -1,4 +1,4 @@
-# 6.1 一个简单的字典
+#6.1 一个简单的字典
 alien_0 = {'color':'green', 'points': 5}
 print(alien_0['color'])
 print(alien_0['points'])
@@ -39,3 +39,11 @@ print(f"Kevin likes {friends_nums['Kevin']}")
 print(f"James likes {friends_nums['James']}")
 print(f"Micheal likes {friends_nums['Micheal']}")
 print(f"Allen likes {friends_nums['Allen']}")
+
+
+# 6.3遍历字典
+user_0 = {'username':'efermi', 'first':'enrico', 'last':'fermi',}
+
+for key, value in user_0.items():
+    print(f"\nkey: {key}")
+    print(f"value: {value}")
