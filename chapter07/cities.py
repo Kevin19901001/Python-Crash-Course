@@ -6,6 +6,9 @@ while True:
     city = input(prompt)
 
     if city == 'quit':
+
+        print(city)
+
         break
     else:
         print(f"I'd love to go to {city.title()}!")
