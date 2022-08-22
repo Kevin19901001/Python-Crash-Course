@@ -243,6 +243,9 @@ for new_user in new_users:
 # 遍历这个列表
 # 在循环中使用一个if-elif-else结构，以打印每个数字对应的序数。输出内容应为“1st 2nd 3rd 4th 5th 6th 7th 8th 9th”。
 nums = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+print(nums)
+
 for num in nums:
     if num == 1:
         print('1st')
