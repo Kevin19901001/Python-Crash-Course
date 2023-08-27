@@ -24,5 +24,3 @@ print('导入模块中的所有函数')
 make_pizza('pepperino')
 make_pizza_again('mushrooms', 'green peppers', 'extra cheese')
 make_pizza_again_and_again(16, 'mushrooms', 'green peppers', 'extra cheese')
-
-
