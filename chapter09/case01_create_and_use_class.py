@@ -32,7 +32,7 @@ print(f"Your dog is {your_dog.age} years old.")
 your_dog.sit()
 your_dog.roll_over()
 
-"""联系"""
+"""练习"""
 """1、创建Restaurant类，设置属性和方法"""
 
 """2、创建3个Restaurant类的实例，并调用方法"""
