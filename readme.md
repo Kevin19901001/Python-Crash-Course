@@ -1,1 +1,1 @@
-# The lesson 《Python编程-从入门到实践》.
+# 课程 《Python编程-从入门到实践》.
